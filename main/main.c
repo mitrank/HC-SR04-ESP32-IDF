@@ -8,7 +8,7 @@
 
 #define ECHO_GPIO 12
 #define TRIGGER_GPIO 13
-#define MAX_DISTANCE_CM 500 // Maximum of 5 meters
+#define MAX_DISTANCE_CM 400 // Maximum of 4 meters
 
 void ultrasonic_test(void *pvParameters)
 {
@@ -23,7 +23,6 @@ void ultrasonic_test(void *pvParameters)
 
     while (true) {
         esp_err_t res = ultrasonic_measure(&sensor, MAX_DISTANCE_CM, &distance);
-        res = 0;
         if (res == ESP_OK) {
             printf("Distance: %0.04f m\n", distance);
         } // Print error
