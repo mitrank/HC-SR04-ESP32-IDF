@@ -5,3 +5,6 @@ A component called 'ultrasonic' is added where the needed ultrasonic.c and ultra
 
 All the esp-idf components library can be accessed from this link, 
 https://github.com/UncleRus/esp-idf-lib
+
+As of now, no components are used.
+Receiving watchdog timer triggered in the output monitor.
