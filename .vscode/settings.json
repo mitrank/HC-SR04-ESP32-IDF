@@ -11,5 +11,8 @@
     "idf.portWin": "COM5",
     "idf.pythonBinPathWin": "C:\\Users\\Mitrank\\.espressif\\python_env\\idf4.4_py3.8_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "C:\\Users\\Mitrank\\.espressif",
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "timer_group_struct.h": "c"
+    }
 }
